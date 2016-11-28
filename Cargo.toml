@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["quininer kel <quininer@live.com>"]
 
 [dependencies]
-rand = "*"
-hc256 = "*"
+rand = "0.3"
+hc256 = "0.1"

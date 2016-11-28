@@ -23,6 +23,6 @@ macro_rules! bench_rng {
     }
 }
 
-bench_rng!(chacharng_bench_1k   ChaChaRng   1024);
-bench_rng!(isaacrng_bench_1k    IsaacRng    1024);
-bench_rng!(hc256rng_bench_1k    Hc256Rng    1024);
+bench_rng!(chacharng_bench_1k       ChaChaRng   1024);
+bench_rng!(isaacrng_bench_1k        IsaacRng    1024);
+bench_rng!(fast_hc256rng_bench_1k   Hc256Rng    1024);
